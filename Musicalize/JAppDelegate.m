@@ -2,7 +2,7 @@
 //  JAppDelegate.m
 //  Musicalize
 //
-//  Created by Jean-Francois Pautex on 13/10/13.
+//  Created by Jean-Francois Pautex on 29/09/13.
 //  Copyright (c) 2013 Jean-Francois Pautex. All rights reserved.
 //
 

@@ -20,23 +20,10 @@
 		B83316E4180B2C9300857E55 /* JMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83316E3180B2C9300857E55 /* JMasterViewController.m */; };
 		B83316E7180B2C9300857E55 /* JDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83316E6180B2C9300857E55 /* JDetailViewController.m */; };
 		B83316E9180B2C9300857E55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83316E8180B2C9300857E55 /* Images.xcassets */; };
-		B83316F0180B2C9400857E55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83316EF180B2C9400857E55 /* XCTest.framework */; };
-		B83316F1180B2C9400857E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83316C5180B2C9300857E55 /* Foundation.framework */; };
-		B83316F2180B2C9400857E55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83316C9180B2C9300857E55 /* UIKit.framework */; };
-		B83316F3180B2C9400857E55 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83316CB180B2C9300857E55 /* CoreData.framework */; };
-		B83316FB180B2C9400857E55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B83316F9180B2C9400857E55 /* InfoPlist.strings */; };
-		B83316FD180B2C9400857E55 /* MusicalizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B83316FC180B2C9400857E55 /* MusicalizeTests.m */; };
+		B833170D180B2D6600857E55 /* JGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = B8331708180B2D6600857E55 /* JGraph.m */; };
+		B833170E180B2D6600857E55 /* JSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B833170A180B2D6600857E55 /* JSettingController.m */; };
+		B833170F180B2D6600857E55 /* ToneGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B833170C180B2D6600857E55 /* ToneGeneratorViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B83316F4180B2C9400857E55 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B83316BA180B2C9300857E55 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B83316C1180B2C9300857E55;
-			remoteInfo = Musicalize;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B83316C2180B2C9300857E55 /* Musicalize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicalize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,11 +45,16 @@
 		B83316E5180B2C9300857E55 /* JDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDetailViewController.h; sourceTree = "<group>"; };
 		B83316E6180B2C9300857E55 /* JDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDetailViewController.m; sourceTree = "<group>"; };
 		B83316E8180B2C9300857E55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B83316EE180B2C9400857E55 /* MusicalizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicalizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83316EF180B2C9400857E55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B83316F8180B2C9400857E55 /* MusicalizeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicalizeTests-Info.plist"; sourceTree = "<group>"; };
 		B83316FA180B2C9400857E55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B83316FC180B2C9400857E55 /* MusicalizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicalizeTests.m; sourceTree = "<group>"; };
+		B8331707180B2D6600857E55 /* JGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGraph.h; sourceTree = "<group>"; };
+		B8331708180B2D6600857E55 /* JGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGraph.m; sourceTree = "<group>"; };
+		B8331709180B2D6600857E55 /* JSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSettingController.h; sourceTree = "<group>"; };
+		B833170A180B2D6600857E55 /* JSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSettingController.m; sourceTree = "<group>"; };
+		B833170B180B2D6600857E55 /* ToneGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGeneratorViewController.h; sourceTree = "<group>"; };
+		B833170C180B2D6600857E55 /* ToneGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGeneratorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,17 +66,6 @@
 				B83316CC180B2C9300857E55 /* CoreData.framework in Frameworks */,
 				B83316CA180B2C9300857E55 /* UIKit.framework in Frameworks */,
 				B83316C6180B2C9300857E55 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B83316EB180B2C9400857E55 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B83316F0180B2C9400857E55 /* XCTest.framework in Frameworks */,
-				B83316F3180B2C9400857E55 /* CoreData.framework in Frameworks */,
-				B83316F2180B2C9400857E55 /* UIKit.framework in Frameworks */,
-				B83316F1180B2C9400857E55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				B83316C2180B2C9300857E55 /* Musicalize.app */,
-				B83316EE180B2C9400857E55 /* MusicalizeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +105,7 @@
 		B83316CD180B2C9300857E55 /* Musicalize */ = {
 			isa = PBXGroup;
 			children = (
+				B8331706180B2D6600857E55 /* classes */,
 				B83316D6180B2C9300857E55 /* JAppDelegate.h */,
 				B83316D7180B2C9300857E55 /* JAppDelegate.m */,
 				B83316D9180B2C9300857E55 /* Main_iPhone.storyboard */,
@@ -169,6 +150,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8331706180B2D6600857E55 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8331707180B2D6600857E55 /* JGraph.h */,
+				B8331708180B2D6600857E55 /* JGraph.m */,
+				B8331709180B2D6600857E55 /* JSettingController.h */,
+				B833170A180B2D6600857E55 /* JSettingController.m */,
+				B833170B180B2D6600857E55 /* ToneGeneratorViewController.h */,
+				B833170C180B2D6600857E55 /* ToneGeneratorViewController.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,24 +183,6 @@
 			productReference = B83316C2180B2C9300857E55 /* Musicalize.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B83316ED180B2C9400857E55 /* MusicalizeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B8331703180B2C9400857E55 /* Build configuration list for PBXNativeTarget "MusicalizeTests" */;
-			buildPhases = (
-				B83316EA180B2C9400857E55 /* Sources */,
-				B83316EB180B2C9400857E55 /* Frameworks */,
-				B83316EC180B2C9400857E55 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B83316F5180B2C9400857E55 /* PBXTargetDependency */,
-			);
-			name = MusicalizeTests;
-			productName = MusicalizeTests;
-			productReference = B83316EE180B2C9400857E55 /* MusicalizeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,11 +192,6 @@
 				CLASSPREFIX = J;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jean-Francois Pautex";
-				TargetAttributes = {
-					B83316ED180B2C9400857E55 = {
-						TestTargetID = B83316C1180B2C9300857E55;
-					};
-				};
 			};
 			buildConfigurationList = B83316BD180B2C9300857E55 /* Build configuration list for PBXProject "Musicalize" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -236,7 +207,6 @@
 			projectRoot = "";
 			targets = (
 				B83316C1180B2C9300857E55 /* Musicalize */,
-				B83316ED180B2C9400857E55 /* MusicalizeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,14 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B83316EC180B2C9400857E55 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B83316FB180B2C9400857E55 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,31 +230,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B833170E180B2D6600857E55 /* JSettingController.m in Sources */,
 				B83316D4180B2C9300857E55 /* main.m in Sources */,
+				B833170D180B2D6600857E55 /* JGraph.m in Sources */,
 				B83316E1180B2C9300857E55 /* Musicalize.xcdatamodeld in Sources */,
+				B833170F180B2D6600857E55 /* ToneGeneratorViewController.m in Sources */,
 				B83316D8180B2C9300857E55 /* JAppDelegate.m in Sources */,
 				B83316E7180B2C9300857E55 /* JDetailViewController.m in Sources */,
 				B83316E4180B2C9300857E55 /* JMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B83316EA180B2C9400857E55 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B83316FD180B2C9400857E55 /* MusicalizeTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B83316F5180B2C9400857E55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B83316C1180B2C9300857E55 /* Musicalize */;
-			targetProxy = B83316F4180B2C9400857E55 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B83316D0180B2C9300857E55 /* InfoPlist.strings */ = {
@@ -430,48 +379,6 @@
 			};
 			name = Release;
 		};
-		B8331704180B2C9400857E55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Musicalize.app/Musicalize";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Musicalize/Musicalize-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MusicalizeTests/MusicalizeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		B8331705180B2C9400857E55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Musicalize.app/Musicalize";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Musicalize/Musicalize-Prefix.pch";
-				INFOPLIST_FILE = "MusicalizeTests/MusicalizeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,14 +398,7 @@
 				B8331702180B2C9400857E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B8331703180B2C9400857E55 /* Build configuration list for PBXNativeTarget "MusicalizeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8331704180B2C9400857E55 /* Debug */,
-				B8331705180B2C9400857E55 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
